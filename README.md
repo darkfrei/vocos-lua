@@ -1,5 +1,7 @@
 # vocos.lua
 
+[Русская версия для начинающих: README_ru.md](README_ru.md)
+
 The [Vocos](https://github.com/gemelo-ai/vocos) neural vocoder (mel spectrogram → speech) in pure LuaJIT.
 
 - **No ONNX Runtime, no C libraries, no GPU.** The weights are read straight out of the published `.onnx` file by a small protobuf reader written in Lua, and the network runs in LuaJIT with FFI arrays.
